@@ -1,5 +1,5 @@
 package kr.ac.kookmin.shape;
-/* 20143086 이명학 */
+/* 20143086 이명학   */
 import java.util.LinkedList;
 
 public class Test {
