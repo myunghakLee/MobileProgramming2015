@@ -1,5 +1,5 @@
 package git_hub_tutorial2;
-/*ss*/
+/*ssdafsssdfasdfsadf*/
 public class sample2 {
 
 }
