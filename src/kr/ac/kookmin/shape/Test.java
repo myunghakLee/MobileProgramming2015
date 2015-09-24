@@ -1,5 +1,5 @@
 package kr.ac.kookmin.shape;
-
+/* 20143086 ¿Ã∏Ì«– */
 import java.util.LinkedList;
 
 public class Test {
