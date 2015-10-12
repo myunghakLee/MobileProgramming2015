@@ -6,7 +6,6 @@ public class Ellipse extends Shape{
 	private int w;
 	private int h;
 	
-	
 	public Ellipse(Point center, int w, int h)
 	{
 		this.h = h;

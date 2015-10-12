@@ -10,8 +10,8 @@ public abstract class Shape {
 		{
 			return center;
 			
-		}
-		
+		 }
+		 
 		public Rectangle getBounds()
 		{
 			return this.getBounds();
