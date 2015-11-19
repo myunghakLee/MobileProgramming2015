@@ -7,7 +7,7 @@ class Bank {
 		try {
 			tradeWithA();
 			tradeWithB();
-			throw tradeWithC();
+			tradeWithC();
 		} catch (Exception ex2) {
 	
 			
@@ -26,24 +26,24 @@ class Bank {
 		balance -= m;
 	}
 
-	public void tradeWithB() {
+	public void tradeWithB () throws Exception {
 		int m = 200;
 		System.out.println("B 계좌에서 출금 - " + m);
 		balance -= m;
 	}
 
-	public Exception tradeWithC() {
+	public Exception tradeWithC() throws Exception {
 		int m = 300;
-		try {
+	//	try {
 			System.out.println("C 계좌에서 출금 - " + m);
 			balance -= m;
 			Exception ex = new Exception();
 			throw ex;
-		} catch (Exception e) {
-			Exception ex2 = new Exception();
-			return ex2;
+	//	} catch (Exception e) {
+	//		Exception ex2 = new Exception();
+	//		return ex2;
 	
-		}
+	//	}
 	}
 
 	public void cancelA() {

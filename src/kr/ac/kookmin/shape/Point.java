@@ -1,6 +1,6 @@
 package kr.ac.kookmin.shape;
 
-public class Point {
+public class Point extends Shape{
 
 	private int x; // in year
 	private int y; // in year

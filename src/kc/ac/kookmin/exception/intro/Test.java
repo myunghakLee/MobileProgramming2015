@@ -3,6 +3,7 @@ package kc.ac.kookmin.exception.intro;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.*;
 
 public class Test{
     public static void main(String args[])
@@ -12,7 +13,8 @@ public class Test{
     }
 } 
 class AAA{
-	public void readFile(){
+	public void readFile()
+	{
 	   	FileReader in=null;
     	BufferedReader reader = null;
         String path = Test.class.getResource("").getPath();
